@@ -6,3 +6,4 @@ resources:
 images:
 - name: PROJECT/IMAGE
   newName: mluukkai/dwk2
+  newTag: c59ac71a6031100b34ed7c13b4e44a4e5739c203
