@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-publish:
-    name: Build, Publish
+    name: Build, Publish, Release
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +20,6 @@ jobs:
 
       - name: Build and publish backend
         run: |-
-          docker build --tag "mluukkai/dwk1" .
-          docker push "mluukkai/dwk1"
+          docker build --tag "mluukkai/dwk2" .
+          docker push "mluukkai/dwk2"
   
