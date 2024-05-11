@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dwk1-app-dep
+  name: dwk2-app-dep
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
-      app: dwk1-app
+      app: dwk2-app
   template:
     metadata:
       labels:
-        app: dwk1-app
+        app: dwk2-app
     spec:
       containers:
-        - name: dwk1
+        - name: dwk2
           image: PROJECT/IMAGE
           ports:
             - containerPort: 3000

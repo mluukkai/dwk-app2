@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: dwk1-app-svc
+  name: dwk2-app-svc
 spec:
   type: LoadBalancer
   selector:
-    app: dwk1-app
+    app: dwk2-app
   ports:
     - port: 80
       protocol: TCP
